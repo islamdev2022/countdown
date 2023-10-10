@@ -1,0 +1,34 @@
+.Timer{
+    display: flex;
+    color: hsl(345, 95%, 68%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.Timer div{
+    font-size: 50Px;
+}
+.name{
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+    color:hsl(0, 0%, 48%);
+    
+}
+.box{
+background-color: hsl(342, 12%, 29%);
+margin: 15px;
+    width: 75px;
+    height: 75Px;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+.nbr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
